@@ -1,0 +1,35 @@
+.Layout{
+    > header {
+        height: 90px;
+        background: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        
+
+        > .logo {
+            font-size: 60px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        > .spacer {
+            flex: 1;
+        }
+
+        > .icon-wrapper {
+            margin: 0 20px;
+        }
+
+        > .question-button {
+            text-decoration: none;
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+
+        }
+    }
+}

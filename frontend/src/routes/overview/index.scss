@@ -1,0 +1,84 @@
+.profileImage {
+	border-radius: 50%;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.profile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+ .container-category {
+   display: flex;
+   justify-content: flex-end;
+  .category {
+    padding: 10px 20px;
+    border: 1px solid grey;
+    background: lightgrey;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+ }
+ 
+
+.Overview {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  > .filters {
+    display: flex;
+    justify-content: space-between;
+
+    > input {
+      height: 30px;
+      width: 250px;
+      padding-left: 10px;
+    }
+
+    > .categories {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      gap: 5px;
+  
+      > button {
+        padding: 10px 20px;
+        border: 1px solid grey;
+        background: lightgrey;
+        cursor: pointer;
+  
+        &.active {
+          background: black;
+          color: white;
+        }
+      }
+    }
+  }
+
+
+  > .questions {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    > .question {
+      text-decoration: none;
+      color: black;
+      border: 1px solid grey;
+      background: white;
+      border-radius: 5px;
+      padding: 10px;
+
+      &:hover {
+        background: whitesmoke;
+      }
+
+      > h4 {}
+      
+      > p {
+        color: grey;
+      }
+    }
+  }
+}

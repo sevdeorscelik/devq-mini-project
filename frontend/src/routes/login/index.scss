@@ -1,0 +1,59 @@
+.Login {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+    > .box {
+      border: 1px solid grey;
+      width: 500px;
+      padding: 20px;
+      background: white;
+      border-radius: 5px;
+  
+      > h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+  
+      > .input-group {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+  
+        > .label {
+          width: 150px;
+          text-align: right;
+          margin-right: 20px;
+        }
+  
+        > input {
+          flex: 1;
+          padding: 10px;
+        }
+      }
+  
+      > .toggle-register {
+        text-align: right;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #1a5eaa;
+        cursor: pointer;
+      }
+  
+      > button {
+        margin-top: 30px;
+        cursor: pointer;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 3px;
+      }
+  
+      > .error {
+        color: red;
+        margin-top: 10px;
+      }
+    }
+  }

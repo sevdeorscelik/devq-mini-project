@@ -1,0 +1,64 @@
+.CreateQuestion {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+    > h2 {
+      margin: 0;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+  
+    > input {
+      display: block;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+  
+    > textarea {
+      display: block;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+  
+    > .button-list {
+      display: flex;
+      gap: 5px;
+      > button {
+        flex: 1;
+        padding: 10px 20px;
+        border: 1px solid grey;
+        background: lightgrey;
+        border-radius: 5px;
+        cursor: pointer;
+  
+  
+        &.active {
+          background: black;
+          color: white;
+        }
+      }
+    }
+  
+    > button {
+      margin-top: 50px;
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      border: none;
+      background: black;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    > .error {
+      margin-top: 10px;
+      color: red;
+    }
+  
+  }
